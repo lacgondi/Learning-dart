@@ -13,7 +13,7 @@ void main() {
   print(name);
   print(nameObj);
   print(nameStr);
-  print(anything)
+  print(anything);
 
 //Default values
   int? lineCount;
