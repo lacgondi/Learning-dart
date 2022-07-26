@@ -1,5 +1,3 @@
-import 'dart:_internal';
-import 'dart:_rti';
 import 'dart:core';
 import 'dart:html';
 
@@ -70,7 +68,6 @@ void main() {
       print('nah cuh');
   }
   // support empty case clauses
-  var command = 'CLOSED';
   switch (command) {
     case 'CLOSED':
       doSomething();
