@@ -13,7 +13,7 @@ bool isNoble(int atomicNumber) => _nobleGases[atomicNumber] != null;
 void enableFlags({bool? bold, bool? hidden}) {}
 
 //required param
-const scrollBar({key, required bool child});
+//const scrollBar({key, required bool child});
 
 //Optional params
 String say(String from, String msg, [String? device])
@@ -48,5 +48,5 @@ void main() {
   });
   //Dart is a lexically scoped language, which means that the scope of variables is determined statically, simply by the layout of the code. You can “follow the curly braces outwards” to see if a variable is in scope.
 
-  
+
 }
