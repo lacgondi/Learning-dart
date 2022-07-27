@@ -105,6 +105,6 @@ void main() {
   print(aa.runtimeType);
 
 //-----
-  var pointyP = Pointy();
-  pointyP.x = 4;
+  // var pointyP = Pointy();
+  // pointyP.x = 4;
 }
