@@ -88,7 +88,7 @@ void main() {
   print(p.y);
   double distanceTo = p.distanceTo(Point(4, 4));
   // If p is non-null, set a variable equal to its y value.
-  var a = p?.y;
+  var a = p.y;
 
 //Using constructors
   var p1 = Point(2, 2);
